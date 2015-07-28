@@ -1,0 +1,426 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body
+{
+	font-family: Helvetica;
+	background-color: rgb(250, 255, 189);
+}
+
+#top
+{
+  background-color: rgb(45, 146, 231);
+  /* margin: 0px 0px; */
+  padding: 8px;
+  text-align: center;
+}
+
+#top li 
+{
+  display: inline-block;
+  /* border: 1px solid black; */
+  margin: 0px 80px;
+  padding: 6px;
+}
+
+#top li a
+{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: bold;
+}
+
+#top li:hover
+{
+
+}
+
+#container
+{
+ width: 1000px;
+ margin: 33px auto;
+}
+
+#form_inscription
+{
+ text-align: center;
+ margin: 159px 147px 20px;
+ padding: 35px;
+ background-color: rgb(171, 173, 141);
+ border-radius: 20px;
+ /* box-shadow: 0px 0px 68px -7px; */
+ border: 3px solid rgb(45, 146, 231);
+}
+
+#form_inscription input
+{
+  height: 34px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+#form_inscription a
+{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(255, 165, 0, 0.5);
+  padding: 9px 30px;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 black;
+  transition: all .1s linear;
+}
+
+#form_inscription a:hover
+{
+  box-shadow: 0 2px 0 white;
+  transform: translateY(3px);
+}
+
+#mes_infos
+{
+ text-align: center;
+ margin: 159px 147px 20px;
+ padding: 35px;
+ background-color: rgba(255, 165, 0, 0.5);
+ border-radius: 20px;
+ /* box-shadow: 0px 0px 68px -7px; */
+ border: 3px solid rgb(45, 146, 231);
+}
+
+#mes_infos input
+{
+  height: 34px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+#mes_infos a
+{
+  text-decoration: none;
+  color: black;
+  background-color: red;
+  padding: 9px 30px;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 black;
+  transition: all .1s linear;
+}
+
+#mes_infos a:hover
+{
+  box-shadow: 0 2px 0 white;
+  transform: translateY(3px);
+}
+
+#form_connexion
+{
+ text-align: center;
+ margin: 159px 147px 20px;
+ padding: 35px;
+ background-color: rgb(171, 173, 141);
+ border-radius: 20px;
+ /* box-shadow: 0px 0px 68px -7px; */
+ border: 3px solid rgb(45, 146, 231);
+}
+
+
+#form_connexion input
+{
+	height: 34px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.annonces img
+{
+ width: 200px;
+ height: 200px;
+}
+
+#form_connexion a
+{
+	text-decoration: none;
+	color: white;
+	background-color: rgba(255, 165, 0, 0.5);
+	padding: 9px 30px;
+  border-radius: 6px;
+  box-shadow: 0 3px 0 black;
+  transition: all .1s linear;
+}
+
+#form_connexion a:hover
+{
+	box-shadow: 0 2px 0 white;
+  transform: translateY(3px);
+}
+
+#form_annonces
+{
+ border: 1px solid white;
+ margin: 0px 244px;
+ padding: 10px;
+ text-align: center;
+ background-color: rgba(255, 165, 0, 0.5);
+ border-radius: 11px;
+}
+
+#form_annonces input
+{
+  height: 34px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+textarea
+{
+  display: block;
+  margin: auto;
+}
+
+.annonces
+{
+  border: 1px solid rgb(92, 201, 210);
+  margin: 40px;
+  padding: 26px 44px;
+  display: inline-block;
+  margin-left: 21%;
+  background-color: rgba(255, 188, 98, 0.5);
+  border-radius: 5px;
+}
+
+.annonces h2 a
+{
+  text-decoration: none;
+  color: rgb(255, 250, 241);
+  background-color: rgb(45, 146, 231);
+  border-radius: 6px;
+  display: block;
+  padding: 6px;
+  margin-bottom: 10px;
+}
+
+.created
+{
+ font-style: italic;
+ font-size: 0.7em;
+ margin-top: 10px;
+}
+.createda
+{
+ font-style: italic;
+ font-size: 0.7em;
+ margin-top: 10px;
+ text-align: center;
+}
+
+.heada
+{
+ margin-bottom: 13px;
+}
+
+.image
+{
+  border: 2px solid white;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  float: left;
+}
+
+.descr
+{
+  border: 1px solid rgb(226, 161, 41);
+  float: right;
+  width: 240px;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.prix
+{
+  border: 2px solid rgb(255, 255, 255);
+  width: 55px;
+  /* height: 20px; */
+  float: right;
+  display: inline-table;
+  margin-top: 9px;
+  text-align: center;
+  background-color: rgb(224, 138, 24);
+  border-radius: 18px;
+  color: white;
+}
+
+.supp
+{
+  width: 75px;
+}
+
+.by
+{
+	color: red;
+}
+
+.bya
+{
+  color: red;
+}
+
+#message
+{
+  color: red;
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#message_success
+{
+  color: green;
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+#erreurs
+{
+  color: red;
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: 20px;
+}
+
+h2
+{
+	text-transform: uppercase;
+}
+
+#mon
+{
+  border: 2px solid rgb(231, 165, 45);
+  width: 800px;
+  margin: 30px auto;
+  background-color: white;
+}
+
+#mon h2
+{
+  text-align: center;
+  border: 1px dashed green;
+  padding: 13px;
+  font-weight: bold;
+  color: rgb(255, 167, 31);
+  background-color: rgb(121, 115, 82);
+}
+
+#mon img
+{
+  width: 200px;
+  height: 200px;
+  margin: 7px;
+  padding: 3px;
+  border: 2px solid rgb(255, 173, 94);
+}
+
+.photoz
+{
+  max-width: 456px;
+  margin: 8px 160px;
+}
+
+.ok
+{
+  min-height: 30px;
+  width: 500px;
+  margin: 20px auto;
+}
+
+.ok p
+{
+ font-size: 0.8em;
+ text-align: center;
+ line-height: 22px;
+}
+
+.contact input
+{
+  height: 34px;
+  width: 400px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.contact h2
+{
+  text-align: center;
+  font-weight: bold;
+}
+
+#msgrecu
+{
+  text-align: center;
+}
+
+#msgrecu h2
+{
+  font-weight: bold;
+  padding: 15px;
+  background-color: orange;
+}
+
+#recherche
+{
+  text-align: center;
+}
+
+#recherche input
+{
+  height: 25px;
+  border-radius: 11px;
+}
+
+table {
+ border-collapse:collapse;
+}
+th, td {
+ border: 3px solid rgb(73, 179, 226);
+ width: 20%;
+ padding: 7px;
+}
+td {
+ text-align:center;
+}
+
+th
+{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+caption {
+ font-weight:bold
+}
